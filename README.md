@@ -7,7 +7,7 @@ replace the web interface.
 ## Installation
 
 ```
-go get github.com:mckean/ptcli
+go get github.com/mckean/ptcli
 ```
 
 There are two env variables that should be set:
