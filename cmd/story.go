@@ -181,7 +181,7 @@ var storyCmd = &cobra.Command{
 			if err := json.Unmarshal(data, &story); err != nil {
 				fmt.Println(err)
 			}
-			fmt.Println("Story created: " + strconv.Itoa(story.ID))
+			fmt.Println("Story created: " + strconv.Itoa(story.ID) + " " + fmt.Sprintf("https://www.pivotaltracker.com/story/show/%s", strconv.Itoa(story.ID)))
 		}
 	},
 }
